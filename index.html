@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-danger p-3 fs-2" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header m">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">My Portfolio</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-danger" href="#myProject">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-danger" aria-disabled="true" href="#">Contact</a>
+                      </li>
+          </div>
+        </div>
+      </nav>
+
+      <div id="cover" class="container-fluid d-flex align-items-center justify-content-center text-center bg-dark text-light shadow p-5">
+        <div class="row d-flex flex-column">
+            <div class="col col-lg-12">
+                <img src="fb prof.jpg" class="img-fluid rounded-circle w-50 photo-border mb-lg-2 mb-sm-4 my-5">
+                <h1 id="cover-title" class="font-weight-bolder h1 display-1 text-shadow">Karl Moses Marron</h1>
+                <div class="d-flex flex-sm-column flex-lg-row w-100 align-items-center justify-content-center text-center mt-5 lg-mt-5">
+                    <div class="col col-lg d-flex justify-content-center align-items-center">
+                        <a id="check" class="btn btn-light h-100 w-50 font-weight-bold d-flex align-items-center justify-content-center" href="#myProject" type="button">PROJECTS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PROJECTS-->
+
+    <div id="myProject" class="container-fluid justify-content-center align-items-center my-3 bg-dark">
+        <div class="row d-flex justify-content-center align-items-center text-center">
+          
+            <h2 class="text-light mt-3 mb-5">My Projects</h2>
+
+            <div class="card d-flex align-items-center justify-contjustify-content-centerent-center col-1 col-lg-4 col-md-3 mx-3" style="width: 30rem; " data-aos="zoom-in">
+                <img src="card 2.jpg" class="card-img-bottom" alt="Web project">
+                <div class="card-body bg">
+                  <h5 class="card-title"> 2nd year HTML/CSS project</h5><hr>
+                  <p class="card-text">This is one of my projects on my first semester as an IT student.</p>
+                  <a href="file:///C:/Users/Karl/Documents/BSIT%202A(2nd%20sem)/IT/CSS/CSS%20finals/FInals%20CSS/finals2.html" class="btn btn-primary">View</a>
+                </div>
+              </div>
+
+              <div class="card d-flex align-items-center justify-content-center col-1 col-lg-4 col-md-3 mx-3" style="width: 30rem;" data-aos="zoom-in">
+                <img src="3d.jpg" class="card-img-top" alt="3d project">
+                <div class="card-body">
+                  <h5 class="card-title">3d Project</h5><hr>
+                  <p class="card-text">Another project from my first semiester as an IT student but with 3d styles.</p>
+                  <a href="3d.html" class="btn btn-primary">View</a>
+                </div>
+              </div>
+
+              <div class="card d-flex align-items-center justify-content-center col-1 col-lg-4 col-md-3 mx-3" style="width: 30rem;" data-aos="zoom-in">
+                <img src="web.jpg" class="card-img-top" alt="Webpage">
+                <div class="card-body">
+                  <h5 class="card-title">WEB HTML / CSS</h5><hr>
+                  <p class="card-text">HTML and CSS practice during summer for a litte bit of enhancement on my wedev skill.</p>
+                  <a href="file:///C:/Users/Karl/Documents/Practice%20HTML%20CSS/Hover2/p.html" class="btn btn-primary">View</a>
+                </div>
+              </div>
+
+      <!--About Me-->
+
+      <div id="aboutMe" class="container-fluid my-3 bg-light">
+        <h3 class="my-5">ABOUT ME</h3><hr>
+        <div class="row flex-row align-items-center justify-content-center">
+            <div class="col-3">
+                <img src="fb prof.jpg" class="img-fluid mb-lg-3 mb-sm-4 my-5 d-flex " data-aos="fade-right">
+                  
+            </div>
+
+            <div class="col-3 ">
+              <h3 class=""data-aos="fade-left">Me</h3>
+              <p class= ""data-aos="fade-left">I am an IT student from University of the Assumption and currently focusing on Web Development and UI/UX Design field. I am a physically active person with lots of hobbies like music, sports, and automobile. </p>
+            </div>
+        
+        <!--Tools-->
+
+          <div class="row justify-content-center d-flex container-fluid "></div> 
+            <h3 class="my-5">Tools I Use</h3><hr>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-4 ">
+              <img src="figma logo.png"  alt="figma logo" class="tool img-fluid mb-5" data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-4">
+              <img src="html logo.jpg"  alt="figma logo" class="tool img-fluid mb-5" data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-4">
+              <img src="css logo.jpg"  alt="figma logo" class="tool img-fluid mb-5" data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-4">
+              <img src="b.webp"  alt="figma logo" class="tool img-fluid mb-5" data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center my-4">
+              <img src="vs code logo.jpg"  alt="figma logo" class="tool img-fluid mb-5" data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--Contact-->
+
+    <div class="container-fluid justify-content-center align-items-center" id="contact">
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="row justify-content-center text-light">
+            <div class="col-md-8 text-center">
+              <h2 class="my-5">Contact Me</h2><hr class="text-light">
+            </div>
+          </div>
+          <div class="row">
+            <!--contact Info-->
+            <div class="col-md-4 contact-info text-light">
+              <h5 class="my-5">Contact :</h5>
+              <p><strong>Mobile:</strong>0921 693 6454</p>
+              <p><strong>Email:</strong>kmgmarron.student@ua.edu.ph</p>
+              <p><strong>Address:</strong>Bulaon Resettlement City of San Fernando, Pampanga 2000</p>
+              <p><a href="https://www.facebook.com/karl.marron.5">www.facebook.com/karl/main/</a></p>
+            </div>
+            <!--Contact form-->
+            <div class="col-md-8 mt-5">
+              <form action="#" method="post">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label text-light">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                  </div>
+            <div class="col-md-10">
+              <form action="#" method="post">
+                <div class="row">
+                  <div class="col-md-7 mb-3">
+                    <label for="email" class="form-label text-light">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Your Email">
+                  </div>
+            <div class="col-md-12">
+              <form action="#" method="post">
+                <div class="row">
+                  <div class="col-md-7 mb-3">
+                    <label for="mobile" class="form-label text-light">Mobile</label>
+                    <input type="text" class="form-control" id="mobile" placeholder="Mobile">
+                  </div>
+              <!--Message-->
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="What's on you mind"></textarea>
+                  </div>
+              <!--Submit-->
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-primary" fdprocessedid="kxb27u">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class=" id-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <hr class="text-light mt-5"><p>COPYRIGHT | All Rights Reserved 2024</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
